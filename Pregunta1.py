@@ -69,6 +69,10 @@ print(np.percentile(datos["HeartRate"],50))
 print(datos.columns)
 print(pd.unique(datos['Class']))
 
+
+'''
+c. Grafique los datos y explique su comportamiento (PYTHON)
+'''
 import matplotlib.pyplot as plt
 colors = {"high risk":"Crimson","mid risk":"RoyalBlue","low risk":"DarkSeaGreen"}
 class_color = datos.Class.map(colors)
